@@ -140,7 +140,7 @@ h1, h2{
 #center-about{
     width: 33%;
     margin: 0 auto; /* allows you to float: center a div */
-    background-color: green;
+
  
 }
 
@@ -173,3 +173,31 @@ hr{
 .right-about-heading p{
     text-align:right;
 }
+
+#welcome{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+
+#circle-container{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+
+    /* creating circle from div where w and h are equal e.g. square */
+
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg{
+    background: url('../images/ethos-center-image.jpg') no-repeat center center;
+    height: 100%; /*sets the height of the div the image will be inside of */
+
+    border-radius: 50%;
+}
+
