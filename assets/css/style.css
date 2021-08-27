@@ -201,3 +201,13 @@ hr{
     border-radius: 50%;
 }
 
+/* event times */
+
+#times{
+    background:url('../images/meetupImage.webp')   ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    width:100%;
+}
